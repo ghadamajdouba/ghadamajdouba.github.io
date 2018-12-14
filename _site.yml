@@ -1,0 +1,41 @@
+name: Ghada Ben Majdouba
+output_dir: '.'
+navbar:
+  title: Ghada Ben Majdouba
+  type: inverse
+  left:
+  - text: Home
+    icon: fa-home
+    href: index.html
+  
+   
+  - text: My projects
+    menu:
+      
+      - text: Dashboard
+        href: dashboard.html
+      - text: Linear regression simulator
+        href: https://appghada.herokuapp.com/appghada
+        
+     
+  
+  - text: My CV
+    href: https://github.com/ghadamajdouba/CV/blob/master/mon%20CV.pdf
+ 
+  right:
+  - icon: fa-envelope fa-lg
+    href: https://mail.google.com/mail/u/0/#inbox
+  - icon: fa-github fa-lg
+    href: https://github.com/ghadamajdouba
+  - icon: fa-linkedin fa-lg
+    href: https://www.linkedin.com/in/ghada-ben-majdouba-2936a0164/
+  - icon: fa-facebook fa-lg
+    href: https://www.facebook.com/ghada.benmajdouba.35
+output:
+  html_document:
+    theme: cosmo 
+    highlight: textmate
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+
